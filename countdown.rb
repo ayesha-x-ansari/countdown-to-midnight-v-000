@@ -12,8 +12,8 @@ end
 
 countdown(number)
 
-
-def countdown_with_sleep
+number = 10
+def countdown_with_sleep(number)
   while number > 0
     sleep 20
     puts "#{number} SECOND(S)!"
@@ -23,3 +23,4 @@ def countdown_with_sleep
    end
  end
 end
+countdown_with_sleep(number)
